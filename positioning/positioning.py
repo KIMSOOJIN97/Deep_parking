@@ -58,12 +58,12 @@ if cnt >= 5:
 else:
     print('없는 차량입니다\n')
 
-cv2.circle(result, (40, 40), 20, (0, 0, 255), -1)
-cv2.circle(result, (550, 40), 20, (0, 255, 0), -1)
-cv2.circle(result, (40, 360), 20, (255, 0, 0), -1)
-cv2.circle(result, (550, 360), 20, (255, 0, 255), -1)
-cv2.imshow('output', result)
-cv2.waitKey()
+#cv2.circle(result, (40, 40), 20, (0, 0, 255), -1)
+#cv2.circle(result, (550, 40), 20, (0, 255, 0), -1)
+#cv2.circle(result, (40, 360), 20, (255, 0, 0), -1)
+#cv2.circle(result, (550, 360), 20, (255, 0, 255), -1)
+#cv2.imshow('output', result)
+#cv2.waitKey()
 
 a = cv2.imread('a.jpg')
 red = (0, 0, 255)
